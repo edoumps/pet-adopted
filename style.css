@@ -181,6 +181,14 @@ i {
   font-family: "Inter", sans-serif;
 }
 
+.pets-filter button:hover {
+  color: #7d7d7d;
+}
+.pets-filter .active,
+.pets-filter .active:hover {
+  color: #475aff;
+  text-decoration: underline;
+}
 .list-container {
   max-width: 1066px;
   margin: 0 auto;
